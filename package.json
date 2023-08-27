@@ -1,0 +1,25 @@
+{
+  "name": "age-calculator-webpack",
+  "version": "1.0.0",
+  "description": "refractroing the age calc app with webpack",
+  "main": "main.js",
+  "scripts": {
+    "bundle": "webpack --config webpack.config.dev.js",
+    "bundleprod": "webpack --config webpack.config.prod.js",
+    "cleandev": "rm -r dist_dev",
+    "cleanprod": "rm -r dist_prod"
+  },
+  "author": "arjith",
+  "license": "MIT",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.5",
+    "webpack": "^5.80.0",
+    "webpack-bundle-analyzer": "^4.8.0",
+    "webpack-cli": "^5.0.2"
+  }
+}

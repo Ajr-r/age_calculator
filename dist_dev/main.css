@@ -1,0 +1,176 @@
+/*!********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/main.css ***!
+  \********************************************************************/
+@font-face {
+  font-family: pboldi;
+  src: url(assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: pbold;
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: pebold;
+  src: url(assets/fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: peboldi;
+  src: url(assets/fonts/Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+  font-family: i;
+  src: url(assets/fonts/Poppins-Italic.ttf);
+}
+@font-face {
+  font-family: r;
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f0;
+}
+body .main_container {
+  width: 90vw;
+  height: 80vh;
+  background-color: #f1f1f0;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main_container .cont {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  border-radius: 15px 15px 30% 15px;
+  padding: 35px;
+}
+body .main_container .cont table {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 400px;
+  /* Firefox */
+}
+body .main_container .cont table th {
+  text-align: left;
+  font-family: r;
+  color: #858485;
+}
+body .main_container .cont table input {
+  box-sizing: border-box;
+  padding-left: 20px;
+  font-family: pbold;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 120px;
+  border-radius: 5px;
+  border: none;
+  border: 0.5px solid rgb(153, 153, 153);
+  overflow: hidden;
+}
+body .main_container .cont table input:focus-visible {
+  outline-color: #874cfe !important;
+}
+body .main_container .cont table input::-webkit-outer-spin-button,
+body .main_container .cont table input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+body .main_container .cont table input[type=number] {
+  -moz-appearance: textfield;
+}
+body .main_container .cont table .error {
+  font-family: i;
+  color: red;
+  font-size: 0.7rem;
+}
+body .main_container .cont table td {
+  padding-right: 5px;
+  padding-top: 5px;
+}
+body .main_container .cont .f {
+  transform: translateY(-30px);
+}
+body .main_container .cont hr {
+  display: inline-block;
+  width: 420px;
+  border-color: #eeeeee;
+}
+body .main_container .cont .gim {
+  transform: translateY(14px);
+  box-sizing: border-box;
+  background-color: #874cfe;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+body .main_container .cont .gim img {
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 80%;
+  height: 80%;
+}
+body .main_container .cont .gim:hover {
+  background-color: #141415;
+}
+body .main_container .cont .do,
+body .main_container .cont .yo,
+body .main_container .cont .mo {
+  color: #874cfe !important;
+}
+body .main_container .cont .output {
+  height: 200px !important;
+  transform: translateY(-60px);
+  color: #141415;
+  margin-top: 20px;
+  font-family: peboldi;
+  font-size: 4.5rem;
+}
+body .main_container .cont .output p {
+  margin: 0;
+  height: 80px;
+}
+
+@media screen and (max-width: 390px) {
+  .main_container {
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .main_container .cont {
+    transform: translateY(-80px);
+    height: 400px !important;
+    width: 280px !important;
+    border-radius: 15px 15px 100% 15px;
+  }
+  .main_container .cont hr {
+    width: 300px !important;
+    transform: translate(-10px, 80px);
+  }
+  .main_container .cont .gim {
+    transform: translate(110px, 38px) !important;
+  }
+  .main_container .cont table {
+    width: 300px !important;
+  }
+  .main_container .cont input {
+    width: 80px !important;
+  }
+  .main_container .cont #y {
+    padding: 6px;
+  }
+  .main_container .cont .output {
+    transform: translateY(0px) !important;
+    font-size: 3.5rem !important;
+  }
+  .main_container .cont .output p {
+    height: 50px !important;
+  }
+}
