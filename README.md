@@ -20,6 +20,7 @@ The Birthday Age Calculator App is a web application that allows you to enter yo
 - HTML
 - SCSS
 - JavaScript
+- Firebase [hosting]
 
 ## How to Use the App
 
